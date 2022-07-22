@@ -1,4 +1,4 @@
-package com.example.demomongodb.entity;
+package com.example.demomongodb.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

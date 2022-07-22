@@ -1,6 +1,6 @@
 package com.example.demomongodb.controller;
 
-import com.example.demomongodb.entity.Cliente;
+import com.example.demomongodb.model.Cliente;
 import com.example.demomongodb.service.IClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

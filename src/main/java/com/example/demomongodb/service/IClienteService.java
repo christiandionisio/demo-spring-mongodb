@@ -1,6 +1,6 @@
 package com.example.demomongodb.service;
 
-import com.example.demomongodb.entity.Cliente;
+import com.example.demomongodb.model.Cliente;
 
 import java.util.List;
 

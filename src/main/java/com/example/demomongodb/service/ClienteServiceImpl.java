@@ -1,6 +1,6 @@
 package com.example.demomongodb.service;
 
-import com.example.demomongodb.entity.Cliente;
+import com.example.demomongodb.model.Cliente;
 import com.example.demomongodb.repo.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
