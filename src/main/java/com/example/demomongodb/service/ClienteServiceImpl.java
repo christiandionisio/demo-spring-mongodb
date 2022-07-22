@@ -1,7 +1,7 @@
 package com.example.demomongodb.service;
 
 import com.example.demomongodb.model.Cliente;
-import com.example.demomongodb.repo.ClienteRepository;
+import com.example.demomongodb.repo.IClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class ClienteServiceImpl implements IClienteService{
 
     @Autowired
-    private ClienteRepository repository;
+    private IClienteRepository repository;
 
     @Override
     public List<Cliente> findAll() {
